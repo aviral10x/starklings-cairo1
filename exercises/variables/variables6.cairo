@@ -3,8 +3,8 @@
 
 use debug::PrintTrait;
 
-const NUMBER:felt252 = 3;
-const SMALL_NUMBER:u8 = 3_u8;
+const NUMBER: u64 = 3;
+const SMALL_NUMBER: u8 = 3_u8;
 fn main() {
     NUMBER.print();
     SMALL_NUMBER.print();
